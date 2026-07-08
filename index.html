@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='85'>💬</text></svg>">
+<meta property="og:title" content="guestbook — comments for any website">
+<meta property="og:description" content="A comment section stored on nostr. Two tags, no server, no Disqus, no tracker.">
+<meta property="og:url" content="https://nostr-client.github.io/guestbook/">
+<meta property="og:image" content="https://nostr-client.github.io/guestbook/og.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<title>guestbook — comments for any website</title>
+<link rel="stylesheet" href="https://nostr-client.github.io/theme/theme.css">
+<style>
+  body { max-width: 42rem; margin: 2.5rem auto; padding: 0 1.2rem 4rem; }
+  h1 { font-size: 1.4rem; } h1 a { text-decoration: none; }
+</style>
+</head>
+<body>
+<h1><a href="https://github.com/nostr-client/guestbook">nostr-client / guestbook</a></h1>
+<p class="nc-muted">A comment section for <em>any</em> web page, stored on
+nostr (NIP-22). No server, no Disqus account, no tracker — the site owner
+hosts nothing. Two tags:</p>
+
+<pre><code>&lt;script type="module" src="https://nostr-client.github.io/guestbook/guestbook.js"&gt;&lt;/script&gt;
+&lt;nostr-guestbook&gt;&lt;/nostr-guestbook&gt;</code></pre>
+
+<p class="nc-muted">This page's own guestbook (log in — a guest key takes
+10 seconds — and leave a note):</p>
+
+<nostr-guestbook></nostr-guestbook>
+
+<script type="module" src="./guestbook.js"></script>
+</body>
+</html>
