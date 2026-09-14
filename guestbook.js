@@ -41,7 +41,7 @@ const TEMPLATE = /* html */ `
     border-radius: var(--nc-radius-sm, 9px); border: 1px solid var(--nc-line, #e9e6e0);
     background: var(--nc-surface, #fff); color: inherit; resize: vertical;
     width: 100%; box-sizing: border-box; }
-  textarea:focus { outline: 2px solid var(--nc-accent-soft, #f2ecfd);
+  textarea:focus { outline: 2px solid var(--nc-accent, #7a5cff); outline-offset: 1px;
     border-color: var(--nc-accent, #7c3aed); }
   .row { display: flex; justify-content: space-between; align-items: center; gap: .6rem; }
   .hint { font-size: .8rem; color: var(--nc-soft, #6d6a76); }
